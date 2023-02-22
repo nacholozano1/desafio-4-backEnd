@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.productosEstaticos{
+    margin: 4rem 0rem 4rem 4rem;
+}
+
+h1{
+    text-align: center;
+    margin: 5rem 0 0rem 0;
+    font-size: xx-large;
+}
+
+h2{
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+    font-size: xx-large;
+}
+
+h4{
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    font-size: xx-large;
+}
+
+.productContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.productFromServer{
+    display: flex;
+    justify-content: center;
+}
+
+.producto{
+    margin: 5rem 0 5rem 0;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.formAgregarContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.formAgregar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    line-height: 2rem;
+}
+
+.deleteForm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    line-height: 5rem;
+}
