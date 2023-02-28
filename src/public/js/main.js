@@ -16,7 +16,7 @@ addForm.addEventListener("submit", e => {
   const code = document.getElementById("code").value;
   const stock = document.getElementById("stock").value;
   const category = document.getElementById("category").value;
-  const thumbnails = []
+  const thumbnails = document.getElementById("thumbnails").value;
   const product = { 
     title, 
     description, 
